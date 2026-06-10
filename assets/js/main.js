@@ -128,7 +128,7 @@
       items: [
         { name: 'Office/WPS', icon: 'fas fa-file-excel' },
         { name: 'SQL', icon: 'fas fa-database' },
-        { name: 'Python', icon: 'fas fa-terminal' },
+        { name: 'Python', icon: 'fas fa-code' },
         { name: 'SPSS', icon: 'fas fa-chart-bar' },
         { name: 'R', icon: 'fas fa-chart-line' },
         { name: 'Stata', icon: 'fas fa-chart-pie' },
