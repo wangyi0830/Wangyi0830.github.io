@@ -124,7 +124,7 @@
     {
       category: 'skills.Data Analysis',
       items: [
-        { name: 'Office/WPS', icon: 'fas fa-microchip' },
+        { name: 'Office/WPS', icon: 'fas fa-globe' },
         { name: 'SQL', icon: 'fas fa-server' },
         { name: 'Python', icon: 'fas fa-cogs' },
         { name: 'SPSS', icon: 'fas fa-screwdriver-wrench' },
@@ -133,13 +133,12 @@
       ],
     },
     {
-      category: 'skills.robotics',
+      category: 'skills.Post-Production',
       items: [
-        { name: 'ROS/ROS2', icon: 'fas fa-robot' },
-        { name: 'MuJoCo', icon: 'fas fa-cube' },
-        { name: 'Isaac Gym', icon: 'fas fa-dumbbell' },
-        { name: 'Isaac Sim', icon: 'fas fa-vr-cardboard' },
-        { name: 'Webots', icon: 'fas fa-globe' },
+        { name: 'Premiere Pro', icon: 'fas fa-robot' },
+        { name: '剪映专业版', icon: 'fas fa-cube' },
+        { name: 'After Effects', icon: 'fas fa-dumbbell' },
+        { name: 'Final Cut Pro', icon: 'fas fa-vr-cardboard' },
       ],
     },
     {
@@ -150,7 +149,6 @@
         { name: '可灵', icon: 'fas fa-gears' },
         { name: '海螺', icon: 'fas fa-box-open' },
         { name: 'Max', icon: 'fab fa-docker' },
-        { name: 'Mini', icon: 'fab fa-gitlab' },
       ],
     },
   ];
