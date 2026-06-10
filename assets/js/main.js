@@ -113,24 +113,23 @@
 
   const TECH_STACK = [
     {
-      category: 'skills.hardware',
+      category: 'skills.Content Creation',
       items: [
-        { name: 'Fusion 360', icon: 'fas fa-cube' },
-        { name: 'SolidWorks', icon: 'fas fa-drafting-compass' },
-        { name: 'LCEDA', icon: 'fas fa-pencil-ruler' },
-        { name: 'KiCad', icon: 'fas fa-layer-group' },
+        { name: '摄影', icon: 'fas fa-cube' },
+        { name: '摄像', icon: 'fas fa-drafting-compass' },
+        { name: '文案', icon: 'fas fa-pencil-ruler' },
+        { name: '策划', icon: 'fas fa-layer-group' },
       ],
     },
     {
-      category: 'skills.embedded',
+      category: 'skills.Data Analysis',
       items: [
-        { name: 'MCU', icon: 'fas fa-microchip' },
-        { name: 'SBC', icon: 'fas fa-server' },
-        { name: 'RTOS', icon: 'fas fa-cogs' },
-        { name: 'Keil MDK', icon: 'fas fa-screwdriver-wrench' },
-        { name: 'STM32CubeMX', icon: 'fas fa-cubes' },
-        { name: 'C/C++', icon: 'fas fa-code' },
-        { name: 'Rust', icon: 'fab fa-rust' },
+        { name: 'Office/WPS', icon: 'fas fa-microchip' },
+        { name: 'SQL', icon: 'fas fa-server' },
+        { name: 'Python', icon: 'fas fa-cogs' },
+        { name: 'SPSS', icon: 'fas fa-screwdriver-wrench' },
+        { name: 'R', icon: 'fas fa-cubes' },
+        { name: 'Stata', icon: 'fas fa-code' },
       ],
     },
     {
@@ -144,14 +143,14 @@
       ],
     },
     {
-      category: 'skills.software',
+      category: 'skills.AI Applications',
       items: [
-        { name: 'Linux', icon: 'fab fa-linux' },
-        { name: 'Git', icon: 'fab fa-git-alt' },
-        { name: 'CMake', icon: 'fas fa-gears' },
-        { name: 'conda', icon: 'fas fa-box-open' },
-        { name: 'Docker', icon: 'fab fa-docker' },
-        { name: 'GitLab CI', icon: 'fab fa-gitlab' },
+        { name: 'Vibe Coding', icon: 'fab fa-linux' },
+        { name: '即梦', icon: 'fab fa-git-alt' },
+        { name: '可灵', icon: 'fas fa-gears' },
+        { name: '海螺', icon: 'fas fa-box-open' },
+        { name: 'Max', icon: 'fab fa-docker' },
+        { name: 'Mini', icon: 'fab fa-gitlab' },
       ],
     },
   ];
