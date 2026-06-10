@@ -128,9 +128,9 @@
       items: [
         { name: 'Office/WPS', icon: 'fas fa-file-excel' },
         { name: 'SQL', icon: 'fas fa-database' },
-        { name: 'Python', icon: 'fas fa-python' },
+        { name: 'Python', icon: 'fas fa-terminal' },
         { name: 'SPSS', icon: 'fas fa-chart-bar' },
-        { name: 'R', icon: 'fas fa-r-project' },
+        { name: 'R', icon: 'fas fa-chart-line' },
         { name: 'Stata', icon: 'fas fa-chart-pie' },
       ],
     },
@@ -146,11 +146,11 @@
     {
       category: 'skills.AI Applications',
       items: [
-        { name: 'Vibe Coding', icon: 'fab fa-brain' },
-        { name: '即梦', icon: 'fab fa-wand-sparkles' },
+        { name: 'Vibe Coding', icon: 'fab fa-code' },
+        { name: '即梦', icon: 'fab fa-magic' },
         { name: '可灵', icon: 'fas fa-video' },
         { name: '海螺', icon: 'fas fa-water' },
-        { name: 'Max', icon: 'fab fa-bolt' },
+        { name: 'Max', icon: 'fab fa-cube' },
       ],
     },
   ];
