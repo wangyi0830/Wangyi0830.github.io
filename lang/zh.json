@@ -196,10 +196,10 @@
   },
   "skills": {
     "title": "专业技能",
-    "embedded": "嵌入式开发",
-    "robotics": "机器人技术",
-    "software": "开发工具链",
-    "hardware": "结构与硬件设计"
+    "Content Creation": "内容创作",
+    "Data Analysis": "数据分析",
+    "AI Applications": "AI应用",
+    "Production": "影音后期"
   },
   "contact": {
     "title": "联系我",
