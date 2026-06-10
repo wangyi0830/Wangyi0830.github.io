@@ -127,10 +127,10 @@
       category: 'skills.Data Analysis',
       items: [
         { name: 'Office/WPS', icon: 'fas fa-file-excel' },
-        { name: 'SQL', icon: 'fas fa-database' },
+        { name: 'R', icon: 'fas fa-database' },
         { name: 'Python', icon: 'fas fa-code' },
-        { name: 'SPSS', icon: 'fas fa-chart-bar' },
-        { name: 'R', icon: 'fas fa-chart-line' },
+        { name: 'SQL', icon: 'fas fa-chart-bar' },
+        { name: 'SPSS', icon: 'fas fa-chart-line' },
         { name: 'Stata', icon: 'fas fa-chart-pie' },
         { name: 'Gephi', icon: 'fas fa-project-diagram' },
       ],
