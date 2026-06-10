@@ -157,11 +157,11 @@
   ];
 
   const CONTACT_LINKS = [
-    { icon: 'fab fa-bilibili', key: 'contact.bilibili', link: 'https://space.bilibili.com/385516781/upload/video' },
-    { icon: 'fab fa-github', key: 'contact.github', link: 'https://github.com/Lain-Ego0' },
-    { icon: 'fab fa-twitter', key: 'contact.twitter', link: 'https://x.com/Lain_Ego0' },
-    { icon: 'fab fa-zhihu', key: 'contact.zhihu', link: 'https://www.zhihu.com/people/hua-99-50-21' },
-  ];
+  { icon: 'fab fa-bilibili', key: 'contact.bilibili', link: 'https://space.bilibili.com/你的UID' },
+  { icon: 'fab fa-github', key: 'contact.github', link: 'https://github.com/wangyi0830' },
+  { icon: 'fab fa-tiktok', key: 'contact.douyin', link: 'https://v.douyin.com/_R3UOL4Qckg/' },
+  { icon: 'fab fa-zhihu', key: 'contact.zhihu', link: 'https://www.zhihu.com/people/你的知乎ID' },
+];
 
   function qs(selector, root = document) {
     return root.querySelector(selector);
