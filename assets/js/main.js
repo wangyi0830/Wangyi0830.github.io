@@ -119,8 +119,8 @@
         { name: '摄像', icon: 'fas fas fa-video' },
         { name: '文案', icon: 'fas fas fa-feather' },
         { name: '策划', icon: 'fas fa-lightbulb' },
-        { name: 'Photoshop', icon: 'fas fa-palette' },
-        { name: 'Canva', icon: 'fas fa-paint-brush' },
+        { name: 'Photoshop/Canva', icon: 'fas fa-palette' },
+        { name: '深度报道', icon: 'fas fa-paint-brush' },
       ],
     },
     {
