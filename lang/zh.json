@@ -87,8 +87,8 @@
     "imgAlt4": "细节展示图 3"
   },
   "opensource": {
-    "title": "开源贡献",
-    "btnCode": "代码仓库",
+    "title": "实习经历",
+    "btnCode": "详细介绍",
     "btnDoc": "在线文档",
     "item1": {
       "title": "BRS-并联四足机器人",
@@ -195,7 +195,7 @@
     }
   },
   "skills": {
-    "title": "技术栈",
+    "title": "专业技能",
     "embedded": "嵌入式开发",
     "robotics": "机器人技术",
     "software": "开发工具链",
@@ -209,6 +209,6 @@
     "zhihu": "知乎"
   },
   "footer": {
-    "copyright": "© 2026 王一 | 个人主页"
+    "copyright": "© 南京大学·新闻传播学院 | 王一"
   }
 }
