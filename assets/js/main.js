@@ -120,7 +120,7 @@
         { name: '文案', icon: 'fas fas fa-feather' },
         { name: '策划', icon: 'fas fa-lightbulb' },
         { name: 'Photoshop/Canva', icon: 'fas fa-palette' },
-        { name: '广告营销/推广', icon: 'fas fa-paint-brush' },
+        { name: '广告营销 & 推广', icon: 'fas fa-paint-brush' },
       ],
     },
     {
