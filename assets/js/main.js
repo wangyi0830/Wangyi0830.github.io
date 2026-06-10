@@ -132,6 +132,7 @@
         { name: 'SPSS', icon: 'fas fa-chart-bar' },
         { name: 'R', icon: 'fas fa-chart-line' },
         { name: 'Stata', icon: 'fas fa-chart-pie' },
+        { name: 'Gephi', icon: 'fas fa-project-diagram' },
       ],
     },
     {
@@ -151,6 +152,7 @@
         { name: '可灵', icon: 'fas fa-video' },
         { name: '海螺', icon: 'fas fa-water' },
         { name: 'Max', icon: 'fas fa-cubes' },
+        { name: 'Runway Gen', icon: 'fas fa-robot' },
       ],
     },
   ];
