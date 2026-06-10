@@ -119,6 +119,8 @@
         { name: '摄像', icon: 'fas fa-drafting-compass' },
         { name: '文案', icon: 'fas fa-pencil-ruler' },
         { name: '策划', icon: 'fas fa-layer-group' },
+        { name: 'Photoshop', icon: 'fas fa-palette' },
+        { name: 'Canva', icon: 'fas fa-paint-brush' },
       ],
     },
     {
