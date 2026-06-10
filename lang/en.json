@@ -3,8 +3,11 @@
     "home": "Home",
     "projects": "Portfolio",
     "opensource": "Open Source",
+    "opensource": "Experience",
+    "campus": "Campus",
     "timeline": "Timeline",
     "skills": "Tech Stack",
+    "intro": "About"
     "contact": "Contact",
     "documents": "Docs"
   },
