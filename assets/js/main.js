@@ -146,11 +146,11 @@
     {
       category: 'skills.AI Applications',
       items: [
-        { name: 'Vibe Coding', icon: 'fab fa-code' },
-        { name: '即梦', icon: 'fab fa-magic' },
+        { name: 'Vibe Coding', icon: 'fab fa-linux' },
+        { name: '即梦', icon: 'fab fa-git-alt' },
         { name: '可灵', icon: 'fas fa-video' },
         { name: '海螺', icon: 'fas fa-water' },
-        { name: 'Max', icon: 'fab fa-cube' },
+        { name: 'Max', icon: 'fab fa-docker' },
       ],
     },
   ];
