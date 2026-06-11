@@ -803,3 +803,113 @@ nav {
 .project-info p {
   margin-bottom: 16px; 
 }
+
+/* =========================================
+   13. Self Introduction Section (New)
+   ========================================= */
+.intro-paper {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px 56px;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+[data-theme="dark"] .intro-paper {
+  background: #1a1a1a;
+  border-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+}
+
+.intro-paper:hover {
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.intro-paper .paper-content {
+  position: relative;
+}
+
+.intro-title-sans {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+[data-theme="dark"] .intro-title-sans {
+  color: #f3f4f6;
+}
+
+.paper-label-bottom {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+[data-theme="dark"] .paper-label-bottom {
+  color: #6b7280;
+  border-color: #374151;
+}
+
+.paper-body-standard {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+[data-theme="dark"] .paper-body-standard {
+  color: #d1d5db;
+}
+
+.paper-body-standard p + p {
+  margin-top: 1.1em;
+}
+
+.paper-action {
+  margin-top: 28px;
+}
+
+.btn-paper {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #2563eb;
+  text-decoration: none;
+  transition: gap 0.25s ease;
+}
+
+[data-theme="dark"] .btn-paper {
+  color: #60a5fa;
+}
+
+.btn-paper:hover {
+  gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .intro-paper {
+    padding: 28px 24px;
+  }
+  .intro-title-sans {
+    font-size: 1.2rem;
+  }
+}
