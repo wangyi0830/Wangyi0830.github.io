@@ -208,6 +208,9 @@
     "tiktok": "抖音",
     "zhihu": "知乎"
   },
+    "selfintro": {
+    "title": "自我介绍"
+  },
   "footer": {
     "copyright": "© 南京大学 · 新闻传播学院  |  王一"
   }
