@@ -219,6 +219,9 @@
     "twitter": "Twitter",
     "zhihu": "Zhihu"
   },
+    "selfintro": {
+    "title": "About Me"
+  },
   "footer": {
     "copyright": "© 2026 Yi Wang | Personal Homepage"
   }
