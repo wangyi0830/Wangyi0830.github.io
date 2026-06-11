@@ -4,7 +4,7 @@
     "projects": "Portfolio",
     "opensource": "Open Source",
     "opensource": "Experience",
-    "campus": "Campus",
+    "campus-experiences": "Campus",
     "timeline": "Timeline",
     "skills": "Tech Stack",
     "intro": "About"
@@ -211,6 +211,9 @@
     "robotics": "Robotics",
     "software": "Toolchain",
     "hardware": "Structure & Hardware Design"
+  },
+    "campus": {
+    "title": "Campus Experience"
   },
   "contact": {
     "title": "Let's Connect",
