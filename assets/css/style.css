@@ -812,9 +812,9 @@ nav {
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 4px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 48px 56px;
+  padding: 48px 40px;
   position: relative;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
