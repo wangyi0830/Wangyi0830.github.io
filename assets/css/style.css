@@ -883,6 +883,7 @@ nav {
 
 .paper-action {
   margin-top: 28px;
+  text-align: center;
 }
 
 .btn-paper {
@@ -890,7 +891,7 @@ nav {
   align-items: center;
   gap: 6px;
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 1.05rem;
   font-weight: 500;
   color: #2563eb;
   text-decoration: none;
