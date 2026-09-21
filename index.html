@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="zh-CN" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wangyi's Homepage</title>
+  <title>王一 · 个人主页 | Wang Yi's Homepage</title>
   
   <script>
     const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -23,16 +23,17 @@
       
       <div class="nav-actions">
         <div class="nav-links">
-          <a href="#projects" data-i18n="nav.projects">项目</a>
-          <a href="#opensource" data-i18n="nav.campusexperiences">实习经历</a>
+          <a href="#projects" data-i18n="nav.projects">个人项目</a>
+          <a href="#experience" data-i18n="nav.experience">实习经历</a>
           <a href="#campus-experiences" data-i18n="nav.campus-experiences">校园经历</a>
           <a href="#timeline" data-i18n="nav.timeline">时间轴</a>
           <a href="#skills" data-i18n="nav.skills">专业技能</a>
+          <a href="pages/portfolio/portfolio.html" data-i18n="nav.portfolio">作品集</a>
           <a href="#self-introduction" data-i18n="nav.self-introduction">自我介绍</a>
         </div>
         
         <div class="nav-controls">
-          <button class="control-btn lang-toggle" aria-label="Toggle Language">中文</button>
+          <button class="control-btn lang-toggle" aria-label="Toggle Language">English</button>
           <button class="control-btn theme-toggle" aria-label="Toggle Theme">
             <i class="fas fa-sun sun-icon"></i>
             <i class="fas fa-moon moon-icon"></i>
@@ -46,90 +47,53 @@
     <div class="bg-decoration"></div>
     <div class="container flex-center column">
       <div class="avatar-container">
-        <img src="assets/images/Avatar.jpg" alt="Avatar" class="avatar" data-i18n="intro.avatarAlt">
+        <img src="assets/images/Avatar.jpg" alt="一一的头像" class="avatar" data-i18n="intro.avatarAlt">
         <div class="avatar-glow"></div>
       </div>
-      <h1 class="gradient-text" data-i18n="intro.title">Hello, I'm Lain-Ego</h1>
-      <p class="subtitle" data-i18n="intro.desc">...</p>
+      <h1 class="gradient-text" data-i18n="intro.title">你好，我是王一</h1>
+      <p class="subtitle" data-i18n="intro.desc">南京大学新闻传播学院数字营销方向研一在读<br>求职意向：电商 / 商业化运营<br>邮箱：yolowyi@163.com</p>
       <div class="intro-contact-links" aria-label="Social Links"></div>
     </div>
   </section>
 
   <section id="projects" class="section-padding">
     <div class="container">
-      <h2 data-i18n="projects.title">My Projects</h2>
+      <h2 data-i18n="projects.title">个人项目</h2>
       <div class="projects-grid"></div>
     </div>
   </section>
 
-  <section id="opensource" class="section-padding">
+  <section id="experience" class="section-padding">
     <div class="container">
-      <h2 data-i18n="opensource.title">Open Source Contributions</h2>
+      <h2 data-i18n="experience.title">实习经历</h2>
       <div class="opensource-grid"></div>
     </div>
   </section>
 
-    <section id="campus-experiences" class="section-padding">
+  <section id="campus-experiences" class="section-padding">
     <div class="container">
       <h2 data-i18n="campus.title">校园经历</h2>
-      <div class="campus-grid">
-        <div class="campus-card">
-          <div class="campus-header">
-            <div class="campus-title">南京大学新闻传播学院研究生会</div>
-          </div>
-          <div class="campus-meta">2025.09 - 至今</div>
-          <p class="campus-desc">负责学院新媒体矩阵运营，策划执行多场学术讲座与品牌活动，推动学院官方账号粉丝增长与内容迭代。</p>
-          <div class="campus-tags">
-            <span class="campus-tag">新媒体运营</span>
-            <span class="campus-tag">品牌策划</span>
-            <span class="campus-tag">活动执行</span>
-          </div>
-        </div>
-        <div class="campus-card">
-          <div class="campus-header">
-            <div class="campus-title">ROBOCON 机器人校队队长</div>
-          </div>
-          <div class="campus-meta">2023.09 - 2025.06</div>
-          <p class="campus-desc">带领 20 人团队完成足式机器人全栈研发，统筹机械、电控、视觉多组协作，获全国赛三项二等奖。</p>
-          <div class="campus-tags">
-            <span class="campus-tag">团队管理</span>
-            <span class="campus-tag">机器人竞赛</span>
-            <span class="campus-tag">项目管理</span>
-          </div>
-        </div>
-        <div class="campus-card">
-          <div class="campus-header">
-            <div class="campus-title">校级创新创业项目负责人</div>
-          </div>
-          <div class="campus-meta">2024.03 - 2024.12</div>
-          <p class="campus-desc">主持「仿生水下机器人」大创项目，负责技术路线制定与成果转化，获省级优秀结题并参展世界航海装备大会。</p>
-          <div class="campus-tags">
-            <span class="campus-tag">大创项目</span>
-            <span class="campus-tag">科研转化</span>
-            <span class="campus-tag">技术统筹</span>
-          </div>
-        </div>
-      </div>
+      <div class="campus-grid"></div>
     </div>
   </section>
 
   <section id="timeline" class="section-padding">
     <div class="container">
-      <h2 data-i18n="timeline.title">Timeline</h2>
+      <h2 data-i18n="timeline.title">经历时间轴</h2>
       <div class="timeline-container"></div>
     </div>
   </section>
 
   <section id="skills" class="section-padding">
     <div class="container">
-      <h2 data-i18n="skills.title">Tech Stack</h2>
+      <h2 data-i18n="skills.title">专业技能</h2>
       <div class="skills-wrapper"></div>
     </div>
   </section>
 
-    <section id="self-introduction" class="section-padding">
+  <section id="self-introduction" class="section-padding">
     <div class="container">
-      <h2 data-i18n="selfintro.title">个人介绍</h2>
+      <h2 data-i18n="selfintro.title">自我介绍</h2>
       
       <div class="intro-paper">
         <div class="paper-content">
@@ -146,14 +110,14 @@
           </div>
           
           <div class="paper-action">
-            <a href="assets/pdf/resume.pdf?v=2" target="_blank" rel="noopener noreferrer" class="btn-paper">查看个人简历 &rarr;</a>
+            <a href="assets/pdf/resume.pdf?v=3" target="_blank" rel="noopener noreferrer" class="btn-paper">查看个人简历 &rarr;</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <footer data-i18n="footer.copyright">© 南京大学新闻传播学院 ｜  王一. All rights reserved.</footer>
+  <footer data-i18n="footer.copyright">© 南京大学新闻传播学院 ｜ 王一</footer>
 
   <script src="assets/js/i18n.js"></script>
   <script src="assets/js/main.js"></script>

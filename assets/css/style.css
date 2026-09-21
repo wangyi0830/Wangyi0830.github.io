@@ -584,6 +584,15 @@ footer {
   color: var(--text-main);
 }
 
+.os-meta {
+  flex-shrink: 0;
+  margin-left: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
 .os-desc {
   font-size: 0.9rem;
   color: var(--text-muted);
@@ -621,6 +630,48 @@ footer {
   gap: 6px;
 }
 .os-btn:hover { text-decoration: underline; }
+
+/* =========================================
+   Article reading page (portfolio)
+   ========================================= */
+.article-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--bg-hover);
+  border-radius: 20px;
+  padding: 4px 12px;
+  margin-bottom: 16px;
+}
+
+.article-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.4;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.article-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.article-rule {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 20px 0;
+}
+
+.article-body p {
+  font-size: 1rem;
+  line-height: 1.9;
+  color: var(--text-main);
+  margin-bottom: 18px;
+  text-align: justify;
+}
 
 /* =========================================
    10. Timeline Section (New)
@@ -981,4 +1032,85 @@ nav {
   color: var(--primary);
   border-radius: 20px;
   font-weight: 500;
+}
+
+/* =========================================
+   Portfolio page
+   ========================================= */
+.pf-hero {
+  padding: 80px 0 40px;
+  text-align: center;
+  position: relative;
+}
+
+.pf-hero-note {
+  max-width: 640px;
+  margin: 16px auto 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.pf-section-note {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.pf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 20px;
+}
+
+.pf-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  gap: 16px;
+}
+
+.pf-gallery-item {
+  position: relative;
+  display: block;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  background: var(--bg-card);
+  transition: transform var(--duration-base) var(--ease-standard), box-shadow var(--duration-base) var(--ease-standard);
+}
+
+.pf-gallery-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card);
+}
+
+.pf-gallery-item img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+.pf-gallery-item.pf-wide img {
+  aspect-ratio: 16 / 9;
+}
+
+.pf-gallery-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 28px 12px 10px;
+  font-size: 0.82rem;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0));
+}
+
+.pf-link-pending {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.nav-active {
+  color: var(--primary) !important;
+  font-weight: 700;
 }

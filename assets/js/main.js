@@ -1,114 +1,66 @@
 (() => {
-  const PROJECT_TAG_LIBRARY = {
-    ROBOTICS: 'Robotics',
-    EMBEDDED: 'Embedded Systems',
-    REINFORCEMENT_LEARNING: 'Reinforcement Learning',
-    SIM2REAL: 'Sim2Real',
-    DEPLOYMENT: 'Deployment',
-    FREERTOS: 'FreeRTOS',
-    MOTION_CONTROL: 'Motion Control',
-    MOTOR_CONTROL: 'Motor Control',
-    SLAM: 'SLAM',
-    LIDAR: 'LiDAR',
-    MECHANICAL_DESIGN: 'Mechanical Design',
-    UNDERWATER_ROBOTICS: 'Underwater Robotics',
-    VECTOR_PROPULSION: 'Vector Propulsion',
-    WATERPROOF_ENGINEERING: 'Waterproof Engineering',
-    AGRICULTURAL_ROBOTICS: 'Agricultural Robotics',
-    MULTI_ROBOT_COLLABORATION: 'Multi-Robot Collaboration',
-    WIKI: 'Wiki',
-    KNOWLEDGE_BASE: 'Knowledge Base',
-    OPEN_SOURCE: 'Open Source',
-  };
-
   const PROJECTS = [
     {
-      img: 'assets/images/locowiki-cover.png',
+      img: 'assets/images/cup-cover.jpg',
       titleKey: 'projects.item1.title',
       descKey: 'projects.item1.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.WIKI,
-        PROJECT_TAG_LIBRARY.KNOWLEDGE_BASE,
-        PROJECT_TAG_LIBRARY.ROBOTICS,
-        PROJECT_TAG_LIBRARY.OPEN_SOURCE,
-      ],
+      tagsKey: 'projects.item1.tags',
       link: 'pages/projects/project1.html',
     },
     {
-      img: 'assets/images/opendog-cover.png',
+      img: 'assets/images/miniprogram-cover.jpg',
       titleKey: 'projects.item2.title',
       descKey: 'projects.item2.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.ROBOTICS,
-        PROJECT_TAG_LIBRARY.REINFORCEMENT_LEARNING,
-        PROJECT_TAG_LIBRARY.SIM2REAL,
-        PROJECT_TAG_LIBRARY.DEPLOYMENT,
-      ],
+      tagsKey: 'projects.item2.tags',
       link: 'pages/projects/project2.html',
     },
     {
-      img: 'assets/images/robocon-cover.png',
+      img: 'assets/images/heilan-cover.jpg',
       titleKey: 'projects.item3.title',
       descKey: 'projects.item3.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.ROBOTICS,
-        PROJECT_TAG_LIBRARY.MOTION_CONTROL,
-        PROJECT_TAG_LIBRARY.SLAM,
-        PROJECT_TAG_LIBRARY.LIDAR,
-        PROJECT_TAG_LIBRARY.MECHANICAL_DESIGN,
-      ],
+      tagsKey: 'projects.item3.tags',
       link: 'pages/projects/project3.html',
     },
     {
-      img: 'assets/images/lobster-cover.png',
+      img: 'assets/images/hok-cover.jpg',
       titleKey: 'projects.item4.title',
       descKey: 'projects.item4.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.UNDERWATER_ROBOTICS,
-        PROJECT_TAG_LIBRARY.EMBEDDED,
-        PROJECT_TAG_LIBRARY.VECTOR_PROPULSION,
-        PROJECT_TAG_LIBRARY.WATERPROOF_ENGINEERING,
-      ],
+      tagsKey: 'projects.item4.tags',
       link: 'pages/projects/project4.html',
     },
     {
-      img: 'assets/images/agri-cover.png',
+      img: 'assets/images/portfolio-cover.jpg',
       titleKey: 'projects.item5.title',
       descKey: 'projects.item5.desc',
-      tags: [
-        PROJECT_TAG_LIBRARY.AGRICULTURAL_ROBOTICS,
-        PROJECT_TAG_LIBRARY.FREERTOS,
-        PROJECT_TAG_LIBRARY.MOTOR_CONTROL,
-        PROJECT_TAG_LIBRARY.MULTI_ROBOT_COLLABORATION,
-      ],
-      link: 'pages/projects/project5.html',
+      tagsKey: 'projects.item5.tags',
+      link: 'pages/portfolio/portfolio.html',
     },
   ];
 
-  const OPEN_SOURCE_ITEMS = [
-    { key: 'opensource.item9', linkCode: 'https://github.com/Lain-Ego0/LocoWiki', linkDoc: null },
-    { key: 'opensource.item1', linkCode: 'https://github.com/Lain-Ego0/BRS-Parallel-Robot', linkDoc: null },
-    { key: 'opensource.item2', linkCode: 'https://github.com/Lain-Ego0/SliverWolf-ArmRobotDog', linkDoc: null },
-    { key: 'opensource.item3', linkCode: 'https://github.com/Lain-Ego0/BionicLobster-ROV', linkDoc: null },
-    { key: 'opensource.item4', linkCode: 'https://github.com/Lain-Ego0/ROBOCON2024-R1', linkDoc: null },
-    { key: 'opensource.item5', linkCode: 'https://github.com/Lain-Ego0/ROBOCON2024-3508DOG', linkDoc: null },
-    { key: 'opensource.item6', linkCode: 'https://github.com/Lain-Ego0/HTDW4438_HIMloco', linkDoc: null },
-    { key: 'opensource.item7', linkCode: 'https://github.com/Lain-Ego0/HTDW4438-OpenDog', linkDoc: null },
-    { key: 'opensource.item8', linkCode: 'https://github.com/Lain-Ego0/ROBOCON2024-PPS', linkDoc: null },
+  const EXPERIENCE_ITEMS = [
+    { key: 'experience.item1' },
+    { key: 'experience.item2' },
+    { key: 'experience.item3' },
+    { key: 'experience.item4' },
+  ];
+
+  const CAMPUS_ITEMS = [
+    { key: 'campus.item1' },
+    { key: 'campus.item2' },
+    { key: 'campus.item3' },
   ];
 
   const TIMELINE_EVENTS = [
-    'timeline.event11',
-    'timeline.event10',
-    'timeline.event9',
-    'timeline.event8',
-    'timeline.event7',
-    'timeline.event6',
-    'timeline.event5',
-    'timeline.event4',
-    'timeline.event3',
-    'timeline.event2',
     'timeline.event1',
+    'timeline.event2',
+    'timeline.event3',
+    'timeline.event4',
+    'timeline.event5',
+    'timeline.event6',
+    'timeline.event7',
+    'timeline.event8',
+    'timeline.event9',
+    'timeline.event10',
   ];
 
   const TECH_STACK = [
@@ -116,23 +68,23 @@
       category: 'skills.Content Creation',
       items: [
         { name: '摄影', icon: 'fas fa-camera' },
-        { name: '摄像', icon: 'fas fas fa-video' },
-        { name: '文案', icon: 'fas fas fa-feather' },
+        { name: '摄像', icon: 'fas fa-video' },
+        { name: '文案', icon: 'fas fa-feather' },
         { name: '策划', icon: 'fas fa-lightbulb' },
         { name: 'Photoshop/Canva', icon: 'fas fa-palette' },
-        { name: '广告营销 & 推广', icon: 'fas fa-paint-brush' },
+        { name: '广告营销 & 推广', icon: 'fas fa-bullhorn' },
       ],
     },
     {
       category: 'skills.Data Analysis',
       items: [
-        { name: 'Office/WPS', icon: 'fas fa-file-excel' },
-        { name: 'R', icon: 'fas fa-database' },
+        { name: 'Excel 数据透视表与函数', icon: 'fas fa-table' },
         { name: 'Python', icon: 'fas fa-code' },
-        { name: 'SQL', icon: 'fas fa-chart-bar' },
+        { name: 'SQL', icon: 'fas fa-database' },
         { name: 'SPSS', icon: 'fas fa-chart-line' },
         { name: 'Stata', icon: 'fas fa-chart-pie' },
         { name: 'Gephi', icon: 'fas fa-project-diagram' },
+        { name: 'R', icon: 'fas fa-chart-bar' },
       ],
     },
     {
@@ -148,21 +100,29 @@
       category: 'skills.AI Applications',
       items: [
         { name: 'Vibe Coding', icon: 'fas fa-layer-group' },
-        { name: '即梦', icon: 'fas fa-magic' },
-        { name: '可灵', icon: 'fas fa-video' },
+        { name: '即梦', icon: 'fas fa-wand-magic-sparkles' },
+        { name: '可灵', icon: 'fas fa-clapperboard' },
         { name: '海螺', icon: 'fas fa-water' },
         { name: 'Max', icon: 'fas fa-cubes' },
         { name: 'Runway Gen', icon: 'fas fa-robot' },
       ],
     },
+    {
+      category: 'skills.E-commerce & Platform Ops',
+      items: [
+        { name: 'GMV / 转化率 / ROI 分析', icon: 'fas fa-chart-simple' },
+        { name: '公众号 / 视频号运营', icon: 'fas fa-hashtag' },
+        { name: 'Instagram 运营', icon: 'fab fa-instagram' },
+        { name: '美团 / 大众点评平台规则', icon: 'fas fa-store' },
+      ],
+    },
   ];
 
   const CONTACT_LINKS = [
-  { icon: 'fab fa-bilibili', key: 'contact.bilibili', link: 'https://space.bilibili.com/你的UID' },
-  { icon: 'fab fa-github', key: 'contact.github', link: 'https://github.com/wangyi0830' },
-  { icon: 'fab fa-tiktok', key: 'contact.douyin', link: 'https://v.douyin.com/_R3UOL4Qckg/' },
-  { icon: 'fab fa-zhihu', key: 'contact.zhihu', link: 'https://www.zhihu.com/people/你的知乎ID' },
-];
+    { icon: 'fas fa-envelope', key: 'contact.email', link: 'mailto:yolowyi@163.com' },
+    { icon: 'fab fa-github', key: 'contact.github', link: 'https://github.com/wangyi0830' },
+    { icon: 'fab fa-tiktok', key: 'contact.tiktok', link: 'https://v.douyin.com/_R3UOL4Qckg/' },
+  ];
 
   function qs(selector, root = document) {
     return root.querySelector(selector);
@@ -205,7 +165,6 @@
 
       htmlEl.setAttribute('data-theme', newTheme);
       localStorage.setItem('theme', newTheme);
-      console.log(`[Theme] Switched to ${newTheme}`);
     });
   }
 
@@ -216,7 +175,6 @@
     toggleBtn.addEventListener('click', () => {
       const current = window.i18n.currentLang();
       const next = current === 'en' ? 'zh' : 'en';
-      console.log(`[Lang] Switching to ${next}...`);
       window.i18n.changeLang(next);
     });
   }
@@ -227,7 +185,8 @@
     clear(grid);
 
     PROJECTS.forEach((project) => {
-      const tagsHtml = renderProjectTags(project.tags);
+      const tags = t(project.tagsKey) || [];
+      const tagsHtml = renderProjectTags(tags);
 
       const card = document.createElement('div');
       card.className = 'card';
@@ -246,33 +205,45 @@
     });
   }
 
-  function initOpenSource() {
+  function initExperience() {
     const grid = qs('.opensource-grid');
     if (!grid) return;
     clear(grid);
 
-    OPEN_SOURCE_ITEMS.forEach((item) => {
+    EXPERIENCE_ITEMS.forEach((item) => {
       const tags = t(`${item.key}.tags`) || [];
-      const tagsHtml = renderSpanTags(tags, 'os-tag');
-
-      let buttonsHtml = '';
-      if (item.linkCode) {
-        buttonsHtml += `<a href="${item.linkCode}" target="_blank" rel="noopener noreferrer" class="os-btn"><i class="fab fa-github"></i> ${t('opensource.btnCode')}</a>`;
-      }
-      if (item.linkDoc) {
-        buttonsHtml += `<a href="${item.linkDoc}" target="_blank" rel="noopener noreferrer" class="os-btn"><i class="fas fa-book"></i> ${t('opensource.btnDoc')}</a>`;
-      }
 
       const card = document.createElement('div');
       card.className = 'os-card';
       card.innerHTML = `
         <div class="os-header">
           <div class="os-title">${t(`${item.key}.title`)}</div>
-          <i class="fas fa-code-branch" style="color:var(--primary); opacity:0.5;"></i>
+          <span class="os-meta">${t(`${item.key}.meta`)}</span>
         </div>
         <p class="os-desc">${t(`${item.key}.desc`)}</p>
-        <div class="os-tags">${tagsHtml}</div>
-        <div class="os-actions">${buttonsHtml}</div>
+        <div class="os-tags">${renderSpanTags(tags, 'os-tag')}</div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  function initCampus() {
+    const grid = qs('.campus-grid');
+    if (!grid) return;
+    clear(grid);
+
+    CAMPUS_ITEMS.forEach((item) => {
+      const tags = t(`${item.key}.tags`) || [];
+
+      const card = document.createElement('div');
+      card.className = 'campus-card';
+      card.innerHTML = `
+        <div class="campus-header">
+          <div class="campus-title">${t(`${item.key}.title`)}</div>
+        </div>
+        <div class="campus-meta">${t(`${item.key}.meta`)}</div>
+        <p class="campus-desc">${t(`${item.key}.desc`)}</p>
+        <div class="campus-tags">${renderSpanTags(tags, 'campus-tag')}</div>
       `;
       grid.appendChild(card);
     });
@@ -364,6 +335,7 @@
       ...qsa('.project-detail-card'),
       ...qsa('.projects-grid .card'),
       ...qsa('.opensource-grid .os-card'),
+      ...qsa('.campus-grid .campus-card'),
       ...qsa('.timeline-container .timeline-item'),
       ...qsa('.skills-wrapper .skill-category'),
     ];
@@ -405,9 +377,9 @@
   });
 
   window.addEventListener('i18nLoaded', () => {
-    console.log('[main] i18n loaded, rendering content...');
     initProjects();
-    initOpenSource();
+    initExperience();
+    initCampus();
     initTimeline();
     initTechStack();
     initContactLinks();

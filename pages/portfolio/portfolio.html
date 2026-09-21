@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>作品集 | 王一</title>
+  
+  <script>
+    const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <a href="../../index.html" class="logo">
+        <span class="logo-text">YiYi</span>
+        <div class="logo-dot"></div>
+      </a>
+      
+      <div class="nav-actions">
+        <div class="nav-links">
+          <a href="../../index.html#projects">个人项目</a>
+          <a href="../../index.html#experience">实习经历</a>
+          <a href="../../index.html#timeline">时间轴</a>
+          <a href="portfolio.html" class="nav-active">作品集</a>
+        </div>
+        
+        <div class="nav-controls">
+          <button class="control-btn theme-toggle" aria-label="Toggle Theme">
+            <i class="fas fa-sun sun-icon"></i>
+            <i class="fas fa-moon moon-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="pf-hero">
+    <div class="container">
+      <h1 class="gradient-text">作品集</h1>
+      <p class="subtitle">2026「不负四季·跃界星途」国际青少年篮球邀请赛 · 赛事营销作品</p>
+      <p class="pf-hero-note">本作品集收录我在跃界星途实习期间独立产出与参与完成的部分内容：赛事文案、视觉设计与赛事视频。</p>
+    </div>
+  </section>
+
+  <!-- ===== 文案作品 ===== -->
+  <section id="pf-writing" class="section-padding">
+    <div class="container">
+      <h2>文案作品</h2>
+      <div class="pf-grid">
+        <div class="os-card">
+          <div class="os-header">
+            <div class="os-title">赛事官宣通稿</div>
+            <i class="fas fa-pen-nib" style="color:var(--primary); opacity:0.5;"></i>
+          </div>
+          <p class="os-desc">少年无畏 共耀星途：2026 跃界星途国际青少年篮球邀请赛本月启幕。赛事官宣通稿，覆盖赛事背景、规模升级、Super 5 附加赛创新与文化看点。</p>
+          <div class="os-tags">
+            <span class="os-tag">赛事官宣</span>
+            <span class="os-tag">通稿</span>
+          </div>
+          <div class="os-actions">
+            <a href="articles/cup-announcement.html" class="os-btn"><i class="fas fa-book-open"></i> 阅读全文</a>
+            <a href="../../assets/portfolio/docs/赛事官宣通稿.docx" download class="os-btn"><i class="fas fa-download"></i> 下载原文</a>
+          </div>
+        </div>
+
+        <div class="os-card">
+          <div class="os-header">
+            <div class="os-title">全赛事指南推送</div>
+            <i class="fas fa-pen-nib" style="color:var(--primary); opacity:0.5;"></i>
+          </div>
+          <p class="os-desc">少年无畏 共耀星途｜2026 不负四季·跃界星途国际青少年篮球邀请赛全赛事指南。赛程、阵容、开幕式亮点、Super 5 报名与交通观赛指引一站汇总。</p>
+          <div class="os-tags">
+            <span class="os-tag">公众号推送</span>
+            <span class="os-tag">赛事指南</span>
+          </div>
+          <div class="os-actions">
+            <a href="articles/event-guide.html" class="os-btn"><i class="fas fa-book-open"></i> 阅读全文</a>
+            <a href="../../assets/portfolio/docs/赛事指南推送.docx" download class="os-btn"><i class="fas fa-download"></i> 下载原文</a>
+          </div>
+        </div>
+
+        <div class="os-card">
+          <div class="os-header">
+            <div class="os-title">Super5 附加赛招募稿</div>
+            <i class="fas fa-pen-nib" style="color:var(--primary); opacity:0.5;"></i>
+          </div>
+          <p class="os-desc">全城招募｜不止赛场对决！跃界星途 Super5 超能附加赛，面向全市开放报名。五大维度测评介绍、公益报名机制与荣誉嘉奖体系。</p>
+          <div class="os-tags">
+            <span class="os-tag">公众号推送</span>
+            <span class="os-tag">活动招募</span>
+          </div>
+          <div class="os-actions">
+            <a href="articles/super5-recruit.html" class="os-btn"><i class="fas fa-book-open"></i> 阅读全文</a>
+            <a href="../../assets/portfolio/docs/附加赛稿件.docx" download class="os-btn"><i class="fas fa-download"></i> 下载原文</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 设计作品 ===== -->
+  <section id="pf-design" class="section-padding">
+    <div class="container">
+      <h2>设计作品</h2>
+      <p class="pf-section-note">赛事周边信息指南、赛事包宣传海报、冠军戒指产品图与球队巡礼系列设计。</p>
+      <div class="pf-gallery" id="pf-gallery">
+        <a href="../../assets/portfolio/images/guide.jpg" target="_blank" rel="noopener" class="pf-gallery-item pf-wide">
+          <img src="../../assets/portfolio/images/guide.jpg" alt="周边信息指南设计">
+          <span class="pf-gallery-caption">周边信息指南 · 地图导览设计</span>
+        </a>
+        <a href="../../assets/portfolio/images/poster.jpg" target="_blank" rel="noopener" class="pf-gallery-item pf-wide">
+          <img src="../../assets/portfolio/images/poster.jpg" alt="赛事包宣传海报">
+          <span class="pf-gallery-caption">赛事包宣传海报</span>
+        </a>
+        <a href="../../assets/portfolio/images/ring-1.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/ring-1.jpg" alt="冠军戒指产品图 1">
+          <span class="pf-gallery-caption">冠军戒指产品图 1</span>
+        </a>
+        <a href="../../assets/portfolio/images/ring-2.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/ring-2.jpg" alt="冠军戒指产品图 2">
+          <span class="pf-gallery-caption">冠军戒指产品图 2</span>
+        </a>
+        <a href="../../assets/portfolio/images/ring-3.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/ring-3.jpg" alt="冠军戒指产品图 3">
+          <span class="pf-gallery-caption">冠军戒指产品图 3</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u12-1.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u12-1.jpg" alt="球队巡礼 U12">
+          <span class="pf-gallery-caption">球队巡礼 · U12 组</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u14m-1.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u14m-1.jpg" alt="球队巡礼 U14 男子">
+          <span class="pf-gallery-caption">球队巡礼 · U14 男子组</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u14w-1.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u14w-1.jpg" alt="球队巡礼 U14 女子">
+          <span class="pf-gallery-caption">球队巡礼 · U14 女子组</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u12-2.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u12-2.jpg" alt="球队巡礼 U12 2">
+          <span class="pf-gallery-caption">球队巡礼 · U12 组</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u14m-2.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u14m-2.jpg" alt="球队巡礼 U14 男子 2">
+          <span class="pf-gallery-caption">球队巡礼 · U14 男子组</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u14w-2.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u14w-2.jpg" alt="球队巡礼 U14 女子 2">
+          <span class="pf-gallery-caption">球队巡礼 · U14 女子组</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u12-3.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u12-3.jpg" alt="球队巡礼 U12 3">
+          <span class="pf-gallery-caption">球队巡礼 · U12 组</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u14m-3.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u14m-3.jpg" alt="球队巡礼 U14 男子 3">
+          <span class="pf-gallery-caption">球队巡礼 · U14 男子组</span>
+        </a>
+        <a href="../../assets/portfolio/images/team/team-u14w-3.jpg" target="_blank" rel="noopener" class="pf-gallery-item">
+          <img src="../../assets/portfolio/images/team/team-u14w-3.jpg" alt="球队巡礼 U14 女子 3">
+          <span class="pf-gallery-caption">球队巡礼 · U14 女子组</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 视频作品 ===== -->
+  <section id="pf-video" class="section-padding">
+    <div class="container">
+      <h2>视频作品</h2>
+      <p class="pf-section-note">赛事期间制作与发布的短视频，含接机、赛事包、总冠军戒指与球员采访等内容。</p>
+      <div class="pf-grid" id="pf-video-grid"></div>
+    </div>
+  </section>
+
+  <footer>© 南京大学新闻传播学院 ｜ 王一</footer>
+
+  <script>
+    // 视频作品数据：link 为公开链接（视频号/抖音/Instagram 等），确认后由本人补充
+    const PF_VIDEOS = [
+      { title: '境外球队接机视频', desc: '记录境外球队抵沪接机瞬间（竖版）', link: '' },
+      { title: '境外球队接机视频 · 横版', desc: '接机内容的横屏版本', link: '' },
+      { title: '赛事包宣传视频', desc: '赛事包开箱与内容物展示（横屏）', link: '' },
+      { title: '总冠军戒指宣传视频', desc: '冠军戒指发布宣传短片', link: '' },
+      { title: '球员采访 · 孙阳', desc: '球员人物采访短片', link: '' },
+      { title: 'JU 视频短片', desc: '赛事相关短视频', link: '' },
+    ];
+
+    const grid = document.getElementById('pf-video-grid');
+    PF_VIDEOS.forEach((v) => {
+      const card = document.createElement('div');
+      card.className = 'os-card';
+      const linkHtml = v.link
+        ? `<div class="os-actions"><a href="${v.link}" target="_blank" rel="noopener noreferrer" class="os-btn"><i class="fas fa-play"></i> 观看视频</a></div>`
+        : `<div class="os-actions"><span class="pf-link-pending">链接整理中</span></div>`;
+      card.innerHTML = `
+        <div class="os-header">
+          <div class="os-title">${v.title}</div>
+          <i class="fas fa-film" style="color:var(--primary); opacity:0.5;"></i>
+        </div>
+        <p class="os-desc">${v.desc}</p>
+        ${linkHtml}
+      `;
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>
