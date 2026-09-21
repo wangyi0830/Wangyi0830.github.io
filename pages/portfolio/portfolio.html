@@ -173,7 +173,7 @@
   <section id="pf-video" class="section-padding">
     <div class="container">
       <h2>视频作品</h2>
-      <p class="pf-section-note">赛事期间制作与发布的短视频，含接机、赛事包、总冠军戒指与球员采访等内容。</p>
+      <p class="pf-section-note">赛事期间制作与发布的短视频，含球队接机、赛事包开箱、总冠军戒指发布、明星助力与球队报到等内容，均发布于微信视频号。</p>
       <div class="pf-grid" id="pf-video-grid"></div>
     </div>
   </section>
@@ -181,14 +181,13 @@
   <footer>© 南京大学新闻传播学院 ｜ 王一</footer>
 
   <script>
-    // 视频作品数据：link 为公开链接（视频号/抖音/Instagram 等），确认后由本人补充
+    // 视频作品数据：link 为微信视频号公开链接
     const PF_VIDEOS = [
-      { title: '境外球队接机视频', desc: '记录境外球队抵沪接机瞬间（竖版）', link: '' },
-      { title: '境外球队接机视频 · 横版', desc: '接机内容的横屏版本', link: '' },
-      { title: '赛事包宣传视频', desc: '赛事包开箱与内容物展示（横屏）', link: '' },
-      { title: '总冠军戒指宣传视频', desc: '冠军戒指发布宣传短片', link: '' },
-      { title: '球员采访 · 孙阳', desc: '球员人物采访短片', link: '' },
-      { title: 'JU 视频短片', desc: '赛事相关短视频', link: '' },
+      { title: '境外球队接机视频', desc: '记录境外球队抵达上海的接机瞬间（2026.8.13）', link: 'https://weixin.qq.com/sph/AQT2R8tl9P' },
+      { title: '赛事包开箱视频', desc: '参赛包开箱：斯伯丁抽绳包、Shockdoctor 护齿、迈克达威肌贴、赛事定制球衣等 9 件装备一览', link: 'https://weixin.qq.com/sph/A5ZY1IxFeC' },
+      { title: '总冠军戒指宣传视频', desc: '赛事定制冠军戒指发布宣传短片', link: 'https://weixin.qq.com/sph/ATrWjlCAAV' },
+      { title: '孙阳助力视频', desc: '演员孙阳为 2026 跃界星途国际青少年篮球邀请赛送上开幕祝福', link: 'https://weixin.qq.com/sph/AsSdMCOyeS' },
+      { title: 'JU 球队报到视频', desc: '印尼雅加达 JUBILEE PHOENIX（U14 男子组）球队报到短片；该条 Instagram Reels 浏览量突破 100 万', link: 'https://weixin.qq.com/sph/ASOWgcZkpc', img: '../../assets/portfolio/images/ins-million.jpg', imgCaption: 'Instagram 成效分析：Reels 浏览量 101 万' },
     ];
 
     const grid = document.getElementById('pf-video-grid');
@@ -198,12 +197,16 @@
       const linkHtml = v.link
         ? `<div class="os-actions"><a href="${v.link}" target="_blank" rel="noopener noreferrer" class="os-btn"><i class="fas fa-play"></i> 观看视频</a></div>`
         : `<div class="os-actions"><span class="pf-link-pending">链接整理中</span></div>`;
+      const imgHtml = v.img
+        ? `<figure style="margin:12px 0 0;"><img src="${v.img}" alt="${v.imgCaption || ''}" style="width:100%; border-radius:8px; border:1px solid var(--border-light);"><figcaption style="font-size:0.78rem; color:var(--text-secondary); margin-top:6px; text-align:center;"><i class="fab fa-instagram"></i> ${v.imgCaption || ''}</figcaption></figure>`
+        : '';
       card.innerHTML = `
         <div class="os-header">
           <div class="os-title">${v.title}</div>
           <i class="fas fa-film" style="color:var(--primary); opacity:0.5;"></i>
         </div>
         <p class="os-desc">${v.desc}</p>
+        ${imgHtml}
         ${linkHtml}
       `;
       grid.appendChild(card);
