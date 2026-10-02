@@ -237,7 +237,10 @@
     "title": "Contact",
     "email": "Email",
     "github": "GitHub",
-    "tiktok": "Douyin"
+    "tiktok": "Douyin",
+    "lead": "Open to internships & collaboration",
+    "hint": "Scan the QR code on WeChat (note: job / project inquiry)",
+    "qrAlt": "WeChat QR code: scan to add me"
   },
   "selfintro": {
     "title": "About Me"

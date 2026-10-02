@@ -374,6 +374,16 @@
     initThemeToggle();
     initLangToggle();
     initSmoothScroll();
+
+    // 邮箱按钮：点击时才拼接地址，避免爬虫采集
+    const emailBtn = qs('#email-btn');
+    if (emailBtn) {
+      emailBtn.addEventListener('click', () => {
+        const user = 'yolowyi';
+        const domain = '163.com';
+        window.location.href = `mailto:${user}@${domain}?subject=${encodeURIComponent('来自个人网站的联系')}`;
+      });
+    }
   });
 
   window.addEventListener('i18nLoaded', () => {
