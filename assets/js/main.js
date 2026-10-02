@@ -192,7 +192,7 @@
       card.className = 'card';
       card.innerHTML = `
         <div class="project-thumbnail-wrapper">
-          <img src="${project.img}" alt="${t('projects.imgAlt')}" class="project-thumbnail">
+          <img src="${project.img}" alt="${t('projects.imgAlt')}" class="project-thumbnail" loading="lazy">
         </div>
         <div class="project-info">
           <h3>${t(project.titleKey)}</h3>

@@ -14,7 +14,8 @@
   "intro": {
     "avatarAlt": "yiyi's avatar",
     "title": "Hello, I'm Yi Wang",
-    "desc": "M.A. student in Journalism & Communication (Digital Marketing) at Nanjing University<br>Seeking: E-commerce / Commercial Operations Intern<br>Email: yolowyi@163.com"
+    "desc": "M.A. student in Journalism & Communication (Digital Marketing) at Nanjing University<br>Seeking: E-commerce / Commercial Operations Intern",
+    "stats": "<span><i class=\"fas fa-eye\"></i> 100K+ Channels video views</span><span><i class=\"fab fa-instagram\"></i> 1.01M views on a single Instagram Reel</span><span><i class=\"fas fa-bullhorn\"></i> End-to-end campaign execution</span>"
   },
   "projects": {
     "title": "Projects",
@@ -23,27 +24,52 @@
     "item1": {
       "title": "2026 Intl. Youth Basketball Tournament · Full-cycle Campaign",
       "desc": "Led the full-cycle promotion of the 2026 LEAPBOUND STAR CUP Intl. Youth Basketball Tournament: scheduled articles, posters and videos; ran WeChat Official Account, Channels and Instagram. Video Channel views surpassed 100K and a single Instagram post reached 1M+ views.",
-      "tags": ["Event Marketing", "Content Ops", "Social Growth", "Project Management"]
+      "tags": [
+        "Event Marketing",
+        "Content Ops",
+        "Social Growth",
+        "Project Management"
+      ]
     },
     "item2": {
       "title": "NJUDragon Boat Training Check-in Mini Program",
       "desc": "An in-team fitness check-in mini program built for the Nanjing University Dragon Boat Team: invite-code login, multi-type workout points (running/swimming/strength/cardio), five leaderboards, 7-day streak rewards, real-time danmaku & comment alerts, personal profile and dark mode, sharing one backend with the web version.",
-      "tags": ["WeChat Mini Program", "Product Design", "Community Ops", "Full-stack"]
+      "tags": [
+        "WeChat Mini Program",
+        "Product Design",
+        "Community Ops",
+        "Full-stack"
+      ]
     },
     "item3": {
       "title": "Heilan Home Sportsday IMC Campaign",
       "desc": "Course project: an integrated marketing campaign for Heilan Home Sportsday, building a matrix of vertical community seeding (Keep/Xiaohongshu) + private-domain retention, quantifying impressions, engagement and ROI with dynamic budget allocation.",
-      "tags": ["IMC", "Consumer Insight", "Data-driven", "Campaign Planning"]
+      "tags": [
+        "IMC",
+        "Consumer Insight",
+        "Data-driven",
+        "Campaign Planning"
+      ]
     },
     "item4": {
       "title": "Honor of Kings Middle East IMC Plan",
       "desc": "Course project: market insight and competitor teardown for entering the Middle East, delivering target user personas and a differentiated media strategy across themes, channel mix and rollout rhythm.",
-      "tags": ["Market Insight", "Competitor Analysis", "Media Strategy", "Full Plan"]
+      "tags": [
+        "Market Insight",
+        "Competitor Analysis",
+        "Media Strategy",
+        "Full Plan"
+      ]
     },
     "item5": {
       "title": "Portfolio · Event Marketing Works",
       "desc": "Selected works from the 2026 LEAPBOUND STAR CUP campaign: event articles and press releases, design outputs (venue guide, event package poster, championship ring product shots, team photos) and event videos.",
-      "tags": ["Copywriting", "Design", "Video", "Event Marketing"]
+      "tags": [
+        "Copywriting",
+        "Design",
+        "Video",
+        "Event Marketing"
+      ]
     }
   },
   "project1": {
@@ -76,25 +102,42 @@
       "title": "Yuejie Xingtú Co., Ltd. · Media Intern (Project Coordination & Social Growth)",
       "meta": "2026.06 - 2026.08",
       "desc": "Full-cycle event marketing: led the full-cycle promotion of the 2026 LEAPBOUND STAR CUP Intl. Youth Basketball Tournament, scheduling articles, posters and videos to keep the event visible, coordinating with NBA celebration promotion;<br>Social growth & results: ran WeChat Official Account, Channels and Instagram, adjusting content strategy to event hot topics — Video Channel views surpassed 100K and a single Instagram post reached 1M+ views;<br>Content production: independently produced articles, posters and short videos, conducted player & coach interviews, closing the loop from topic planning to design and editing.",
-      "tags": ["Event Marketing", "Social Media", "Content Creation", "Project Management"]
+      "tags": [
+        "Event Marketing",
+        "Social Media",
+        "Content Creation",
+        "Project Management"
+      ]
     },
     "item2": {
       "title": "Hefei Lianghuai Howard Johnson Hotel · Marketing Assistant (Platform Marketing & Data Review)",
       "meta": "2021.03 - 2021.06",
       "desc": "Platform ops & strategy: familiar with Meituan/Dianping platform rules, co-designed holiday marketing plans and a cost-controlled \"package + platform coupon\" strategy balancing UX and revenue;<br>Data-driven review: tracked daily marketing & sales data, estimated sales and margins to align stakeholders, and adjusted promotion strategy to market feedback — awarded \"Outstanding Intern\".",
-      "tags": ["Platform Ops", "Data Analysis", "Marketing Planning"]
+      "tags": [
+        "Platform Ops",
+        "Data Analysis",
+        "Marketing Planning"
+      ]
     },
     "item3": {
       "title": "PLA Unit 91091 · Naval Soldier (High-pressure Execution)",
       "meta": "2022.09 - 2024.09",
       "desc": "SOP execution & emergency coordination: built a \"standardized execution + flexible adjustment\" mechanism during major support missions such as combat exercises, balancing safety and efficiency — honored as an \"Outstanding Soldier (Four-Haves)\" with commendation;<br>Publicity planning: also worked in the press center under high pressure, handling multiple topic planning and script recording rounds, producing dozens of quality pieces.",
-      "tags": ["High-pressure Execution", "Emergency Coordination", "Publicity"]
+      "tags": [
+        "High-pressure Execution",
+        "Emergency Coordination",
+        "Publicity"
+      ]
     },
     "item4": {
       "title": "Yaodu Town Government · Rural Revitalization Office Trainee (User Insight Research)",
       "meta": "2024.09 - 2025.04",
       "desc": "User insight & research: covered 100+ households via \"district visits + key household interviews\", delivering insight reports and issue ledgers for precise follow-up;<br>Content dissemination: broke policy documents into a \"Q&A handbook + dialect explanation + case demo\" content matrix, distributed via posters and short videos across channels to boost reach.",
-      "tags": ["User Research", "Content Dissemination", "Grassroots Practice"]
+      "tags": [
+        "User Research",
+        "Content Dissemination",
+        "Grassroots Practice"
+      ]
     }
   },
   "campus": {
@@ -103,19 +146,30 @@
       "title": "Nanjing University Dragon Boat Team · Captain",
       "meta": "2026.06 - Present",
       "desc": "Organize daily training and lead the team in competitions; lead recruitment promotion and team culture building; apply community-ops thinking to boost cohesion and retention, and built the team's fitness check-in mini program.",
-      "tags": ["Team Management", "Community Ops", "Recruitment"]
+      "tags": [
+        "Team Management",
+        "Community Ops",
+        "Recruitment"
+      ]
     },
     "item2": {
       "title": "University Network Center · New Media Operator",
       "meta": "2019.06 - 2021.10",
       "desc": "Ran the university official WeChat account, used surveys to find user pain points and data review to optimize content direction.",
-      "tags": ["Account Ops", "User Research", "Data Review"]
+      "tags": [
+        "Account Ops",
+        "User Research",
+        "Data Review"
+      ]
     },
     "item3": {
       "title": "University Converged Media Center · Tech Dept Member",
       "meta": "2018.10 - 2021.10",
       "desc": "Coordinated shooting and contingency plans for major events such as school anniversary and sports meets.",
-      "tags": ["Event Shooting", "Coordination"]
+      "tags": [
+        "Event Shooting",
+        "Coordination"
+      ]
     }
   },
   "timeline": {

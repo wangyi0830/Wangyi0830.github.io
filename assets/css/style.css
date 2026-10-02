@@ -1114,3 +1114,30 @@ nav {
   color: var(--primary) !important;
   font-weight: 700;
 }
+
+/* ===== 首屏成果数据 ===== */
+.intro-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.intro-stats span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border-light);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-size: 0.86rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-card);
+}
+
+.intro-stats span i {
+  color: var(--primary);
+}
