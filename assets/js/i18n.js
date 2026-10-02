@@ -36,6 +36,8 @@
   }
 
   function updatePageLang() {
+    document.documentElement.lang = currentLang === 'en' ? 'en' : 'zh-CN';
+
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const key = el.getAttribute('data-i18n');
       applyTranslation(el, key, t(key));
